@@ -1,0 +1,37 @@
+├── 📁 docs/
+│   ├── 📄 01_Project_Overview.md
+│   └── 📄 02_User_Flows.md
+│
+├── 📁 database/
+│   └── 📄 schema.sql
+│
+└── 📁 src/
+    ├── 📁 backend/
+    │   ├── 📁 api/
+    │   │   ├── 📄 auth_routes.js
+    │   │   ├── 📄 job_postings_routes.js
+    │   │   ├── 📄 messaging_routes.js
+    │   │   └── 📄 users_routes.js
+    │   ├── 📁 models/
+    │   │   ├── 📄 JobPosting.js
+    │   │   ├── 📄 Message.js
+    │   │   └── 📄 User.js
+    │   ├── 📄 app.js
+    │   └── 📄 config.js
+    │
+    └── 📁 frontend/
+        ├── 📁 components/
+        │   ├── 📄 AdminDashboard.js
+        │   ├── 📄 ChatWindow.js
+        │   ├── 📄 JobPostingForm.js
+        │   ├── 📄 JobList.js
+        │   ├── 📄 LoginForm.js
+        │   ├── 📄 ProviderProfile.js
+        │   └── 📄 UserDashboard.js
+        ├── 📁 pages/
+        │   ├── 📄 AdminPage.js
+        │   ├── 📄 DashboardPage.js
+        │   ├── 📄 HomePage.js
+        │   ├── 📄 LoginPage.js
+        │   └── 📄 ProviderSearchPage.js
+        └── 📄 App.js
